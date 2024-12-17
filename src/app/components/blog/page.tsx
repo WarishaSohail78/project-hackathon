@@ -62,8 +62,8 @@ export default function Home() {
 
 </div>
 {/*--------------------------- featured items ------------------------------ */}
-        <div className="w-[1440px] h-[270px] bg-[#FFFFFF] flex" >
-        <div className="w-[1334px] h-[70px] bg-[#FFFFFF] flex" >
+        <div className="w-[1440px] h-[270px]  flex" >
+        <div className="w-[1334px] h-[70px]  flex" >
         <div className="features">
          <div className="feature-item">
     <div className="feature-item-1 w-337 h-70 ">

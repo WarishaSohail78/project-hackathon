@@ -6,7 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Header() {
     return (
-        <header className="w-[1286px] h-[41px]  bg-[#FFFFFF] flex">
+        <header className="w-[1286px] h-[41px]  flex">
       <div className=" container w-[1440px] h-[100px] mx-auto flex items-center justify-between px-4">
                 <div className="w-[1286px] h-[41px] flex">
 { /* Logo section */ }

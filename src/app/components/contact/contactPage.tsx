@@ -6,13 +6,13 @@ import Header from "@/app/components/header";
 
 export default function Contact(){
     return(
-    <div className="w-[1440px] h-[2365px] mx-auto">
+    <div className="w-[1440px] h-[2365px] ">
          <section id="contact" className="contact">
           <Header />
             <div className="container w-1440 h-316 flex">
             <div className="main">
 {/*--------------------------- title image --------------------------- */}
-        <div className="header-image w-[1440px] h-[316px] mx-auto">
+        <div className="header-image w-[1440px] h-[316px] ">
            <Image src={HeaderImage} alt="" width={1440} height={316} objectFit="cover"></Image>
         </div>
          <div className="card-c1 w-196 h-133 flex">
@@ -37,9 +37,9 @@ export default function Contact(){
             <p className="c-detail">For More Information About Our Product & Services. Please Feel Free To Drop Us <br />    An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
            </div>
 {/*-------------------------contact-info----------------------------------------*/}  
-           <div className="w-[1058px] h-[923px] bg-[#FFFFFF] flex" >
-      <div className="w-[635px] h-[923px] bg-[#FFFFFF] flex" >
-        <div className="w-[531px] h-[741px] bg-[#FFFFFF] flex" >
+           <div className="w-[1058px] h-[923px]  flex" >
+      <div className="w-[635px] h-[923px]  flex" >
+        <div className="w-[531px] h-[741px]  flex" >
        
         <div className="w-[393px] h-[537px] flex">
           <div className="contact-section">
@@ -75,7 +75,7 @@ export default function Contact(){
           </div>
 {/*-------------------------contact-form----------------------------------------*/}        
         <form id="form">
-          <div className="contact-form w-[530px] h-[121px] gap-[22]">         
+          <div className="contact-form w-[530px] h-[121px] ">         
              <fieldset>
              <label className="Name">Your name </label>
              <br />
@@ -109,8 +109,8 @@ export default function Contact(){
 </div>
         </form>
 {/*--------------------------- featured items ------------------------------ */}
-        <div className="w-[1440px] h-[270px] bg-[#FFFFFF] flex" >
-        <div className="w-[1334px] h-[70px] bg-[#FFFFFF] flex" >
+        <div className="w-[1440px] h-[270px]  flex" >
+        <div className="w-[1334px] h-[70px]  flex" >
         <div className="features">
          <div className="feature-item">
     <div className="feature-item-1 w-337 h-70 ">

@@ -4,7 +4,7 @@ export default function footer() {
     return (
         <footer>
       <div>
-        <div className="w-[1440px] h-[505px] bg-[#FFFFFF] flex ">
+        <div className="w-[1440px] h-[505px]  flex ">
         <div className="w-[1240.01px] h-[419px] flex">
 <hr />
 {/* footer content */}

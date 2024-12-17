@@ -34,7 +34,7 @@ import Image6 from "@/app/components/Images/Rectangle 44.png";
 export default function Home() {
     return (
         // hero-section
-        <div className="w-[1440px] h-[716px] mx-auto">
+        <div className="w-[1440px] h-[716px] ">
                 <section id="home" className="home">
             <div className="container w-1440 h-716 flex">
                 <div className="main">
