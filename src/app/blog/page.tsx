@@ -2,17 +2,14 @@ import Image from "next/image";
 import HeaderImage from "@/app/components/Images/headerback.png";
 import LogoImage from "@/app/components/Images/meubel-house-logos-05.png";
 import IconsImage from "@/app/components/Images/icons8-arrow-right-50.png";
-import Header from "@/app/components/header";
-import Footer from "@/app/components/footer";
 import BlogImage from "@/app/components/Images/blog-material.png";
 import BlogImages from "@/app/components/Images/blog-material-2.png";
 import BlogImages3 from "@/app/components/Images/blog-material-3.png";
 
-export default function Home() {
+export default function Blog() {
     return (
 <div className="w-1440 h-3981">
          <section id="blog" className="blog">
-         <Header />
             <div className="container w-1440 h-316 flex">
             <div className="main">
 {/*--------------------------- title image --------------------------- */}
@@ -30,7 +27,7 @@ export default function Home() {
             <p className="card-s2-p"><b>Home</b></p> 
             <p className="card-s2-p2"> Blog </p>
             </div>
-            <div className="card-s3-icon">
+            <div className="card-b3-icon">
             <Image src={IconsImage} alt="" width={20} height={16}></Image>
             </div>
             </div>
@@ -89,9 +86,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-           </div>
- 
-      <Footer />      
+           </div>      
             </div>
 </section>
 </div>

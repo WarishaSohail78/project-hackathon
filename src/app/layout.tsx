@@ -2,10 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/app/components/header";
-import Hero from "@/app/components/home/hero";
-import Shop from "@/app/components/shop/page";
-import Blog from "@/app/components/blog/page";
-import Contact from "@/app/components/contact/contactPage";
 import Footer from "@/app/components/footer";
 
 const geistSans = localFont({
@@ -32,13 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-       <Header />
-       <Hero />
-       <Shop />
-       <Blog />
-       <Contact />
-        {children}
-        <Footer />
+       <Header />{/* Always visible */}
+         <main>       {children}       </main> {/* Render dynamic content here */}
+       <Footer />{/* Always visible */}
       </body>
     </html>
   );

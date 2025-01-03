@@ -2,8 +2,6 @@ import Image from "next/image";
 import HeaderImage from "@/app/components/Images/headerback.png";
 import LogoImage from "@/app/components/Images/meubel-house-logos-05.png";
 import IconsImage from "@/app/components/Images/icons8-arrow-right-50.png";
-import Header from "@/app/components/header";
-import Footer from "@/app/components/footer";
 import SlytherineImage from "@/app/components/Images/syltherine.png";
 import LeviosaImage from "@/app/components/Images/leviosa.png";
 import LolitoImage from "@/app/components/Images/lolito.png";
@@ -11,12 +9,11 @@ import RespiraImage from "@/app/components/Images/respira.png";
 //overlay image product 2
 import OverlayImage from "@/app/components/Images/Overlay.png"
 
-
-export default function Contact(){
+export default function Shop(){
     return(
     <div className="w-[1440px] h-[2365px]">
          <section id="shop" className="shop">
-                <Header />
+                
             <div className="container w-1440 h-316 flex">
             <div className="main">
 {/*--------------------------- title image --------------------------- */}
@@ -112,11 +109,8 @@ export default function Contact(){
                 <p className="p-price">Rp 500.000</p>
                 <br />
                 </div>  
-                </div>
-                
+                </div>  
         </div>
-
-
   </div>
 {/* ------------------------products again-------------------------------- */}
   <div className="images">
@@ -169,7 +163,6 @@ export default function Contact(){
                 <br />
                 </div>  
                 </div>
-                
         </div>
 {/* ------------------------products again-------------------------------- */}
 <div className="images">
@@ -222,7 +215,6 @@ export default function Contact(){
                 <br />
                 </div>  
                 </div>
-                
         </div>
 {/* ------------------------products again-------------------------------- */}
 <div className="images">
@@ -314,11 +306,6 @@ export default function Contact(){
               </div>
             </div>
            </div>
- 
-
-
-
-  <Footer />
             </div>
             </section>
             </div>

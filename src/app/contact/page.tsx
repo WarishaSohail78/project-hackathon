@@ -2,18 +2,16 @@ import Image from "next/image";
 import HeaderImage from "@/app/components/Images/headerback.png";
 import LogoImage from "@/app/components/Images/meubel-house-logos-05.png";
 import IconsImage from "@/app/components/Images/icons8-arrow-right-50.png";
-import Header from "@/app/components/header";
 
 export default function Contact(){
     return(
     <div className="w-[1440px] h-[2365px] ">
          <section id="contact" className="contact">
-          <Header />
             <div className="container w-1440 h-316 flex">
             <div className="main">
 {/*--------------------------- title image --------------------------- */}
         <div className="header-image w-[1440px] h-[316px] ">
-           <Image src={HeaderImage} alt="" width={1440} height={316} objectFit="cover"></Image>
+           <Image src={HeaderImage} alt="" width={1440} height={316}  objectFit="cover"></Image>
         </div>
          <div className="card-c1 w-196 h-133 flex">
             <div className="c1-logo">
@@ -34,7 +32,8 @@ export default function Contact(){
            <div className="w-1440 h-1144 flex">
            <div className="contact-info">
             <h2 className="c-title">Get In Touch With Us</h2><br />
-            <p className="c-detail">For More Information About Our Product & Services. Please Feel Free To Drop Us <br />    An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+            <p className="c-detail-1">For More Information About Our Product & Services. Please Feel Free To Drop Us </p>
+            <p className="c-detail-2"> An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
            </div>
 {/*-------------------------contact-info----------------------------------------*/}  
            <div className="w-[1058px] h-[923px]  flex" >
@@ -144,7 +143,6 @@ export default function Contact(){
      </div>
  </div>  
 </div>
-
         </div>
         </section>
     </div> 
